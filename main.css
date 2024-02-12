@@ -49,3 +49,14 @@ body {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+.subtitles a {
+    text-decoration: none; /* Remove underline */
+    color: #FF69B4; /* Default color (adjust as needed) */
+    transition: color 0.3s; /* Add transition effect for smooth color change */
+}
+
+.subtitles a:hover {
+    color: whitesmoke; /* Change color to whitesmoke on hover */
+}
+
